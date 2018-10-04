@@ -1,0 +1,25 @@
+git init					  --initialize folder to be git folder
+ls
+ls -a
+git status					  --shows current status
+git add phone.txt			  --adds new files in the list of 'to be committed'
+git commit -m 'phone created' --commits changes to the branch
+git checkout checkout_id	  --rollback to a particular ID
+git checkout branch_name      --checkout branch, branch_name
+git checkout -b branch_name   --create new branch, branch_name
+git branch 					  --shows lists of branches, * for current branch
+git config --global user.email "soni.komal712@gmail.com" 	--sets email for account
+git config --global user.name "Komal Soni"					--sets name for account
+git diff					  --same as synchronize in SVN
+git log						  --log of all commits so far
+
+
+git commit -a
+git rm
+git config --global --edit
+git commit --ammend --reset-author
+
+
+
+
+
